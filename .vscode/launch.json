@@ -15,7 +15,7 @@
     "name": "Cryptokeeper", 
     "request": "launch",
     "type": "chrome",
-    "url": "http://localhost:4280",
+    "url": "http://localhost:5173",
     "preLaunchTask": "tsc: build - tsconfig.json",
     "webRoot": "${workspaceFolder}/",
     "timeout": 30000

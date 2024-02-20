@@ -3,6 +3,8 @@ import { Grid, GridItem } from '@chakra-ui/react'
 import NavBar from './components/NavBar'
 import CustomGrid from './components/CustomGrid'
 import SideBar from './components/SideBar'
+import GridComponent from './components/GridComponent'
+
 
 function App() {
 
@@ -21,6 +23,7 @@ function App() {
     <GridItem gridArea={"aside"}>
     <SideBar/>
     </GridItem>
+    <GridComponent></GridComponent>
     </Grid>
   )
 }

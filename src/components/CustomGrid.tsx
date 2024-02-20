@@ -1,4 +1,4 @@
-import { Grid, GridItem, Text } from "@chakra-ui/react";
+import { Grid } from "@chakra-ui/react";
 
 
 
@@ -9,9 +9,10 @@ return (
   templateColumns='repeat(3, 1fr)'
   gap={4}
 >
-
 </Grid>
 )
 }
 
 export default CustomGrid
+
+

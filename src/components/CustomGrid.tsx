@@ -5,8 +5,8 @@ import { Grid, GridItem, Text } from "@chakra-ui/react";
 const CustomGrid = () => {
 return (
     <Grid
-  templateRows='repeat(2, 1fr)'
-  templateColumns='repeat(5, 1fr)'
+  templateRows='repeat(10, 1fr)'
+  templateColumns='repeat(10, 1fr)'
   gap={4}
 >
   <GridItem rowSpan={2} colSpan={1} bg='tomato' />

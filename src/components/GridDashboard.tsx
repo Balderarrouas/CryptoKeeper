@@ -8,7 +8,7 @@ interface DynamicGridItem {
   size: GridItemSize;
 }
 
-const GridComponent = () => {
+const GridDashboard = () => {
   const [gridItems, setGridItems] = useState<DynamicGridItem[]>([]);
 
   const addItem = (size: GridItemSize) => {
@@ -26,8 +26,8 @@ const GridComponent = () => {
         {gridItems.map((item) => (
           <GridItem
             key={item.id}
-            colSpan={item.size === 'small' ? 2 : item.size === 'medium' ? 4 : 6}
-            rowSpan={item.size === 'small' ? 2 : item.size === 'medium' ? 4 : 6}
+            colSpan={item.size === 'small' ? 2 : item.size === 'medium' ? 4 : 8}
+            rowSpan={item.size === 'small' ? 2 : item.size === 'medium' ? 4 : 8}
             bg="blue.500"
           >
             {item.size} item
@@ -38,4 +38,4 @@ const GridComponent = () => {
   );
 };
 
-export default GridComponent;
+export default GridDashboard;

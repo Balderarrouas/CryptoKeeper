@@ -2,8 +2,7 @@ import './App.css'
 import { Grid, GridItem } from '@chakra-ui/react'
 import NavBar from './components/NavBar'
 import CustomGrid from './components/CustomGrid'
-import SideBar from './components/SideBar'
-import GridComponent from './components/GridComponent'
+import GridDashboard from './components/GridDashboard'
 
 
 function App() {
@@ -20,10 +19,7 @@ function App() {
     <GridItem gridArea={"main"}>
       <CustomGrid/>
     </GridItem>
-    <GridItem gridArea={"aside"}>
-    <SideBar/>
-    </GridItem>
-    <GridComponent></GridComponent>
+    <GridDashboard></GridDashboard>
     </Grid>
   )
 }
